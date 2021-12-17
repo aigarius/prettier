@@ -5,7 +5,7 @@
 
 
 # Constant definitions
-REPO_NAME := tmknom/prettier
+REPO_NAME := aigarius/prettier
 DOCKER_REPO := index.docker.io/${REPO_NAME}
 IMAGE_TAG := latest
 IMAGE_NAME := $(shell echo ${DOCKER_REPO} | cut -d / -f 2,3):${IMAGE_TAG}

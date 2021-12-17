@@ -5,7 +5,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
 ARG REPO_NAME
-LABEL org.label-schema.vendor="tmknom" \
+LABEL org.label-schema.vendor="aigarius" \
       org.label-schema.name=$REPO_NAME \
       org.label-schema.description="Prettier is an opinionated code formatter." \
       org.label-schema.build-date=$BUILD_DATE \
